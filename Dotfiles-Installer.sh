@@ -25,8 +25,11 @@ process(){
   ## Installing Dotfiles
   git clone https://github.com/AlguienSasaki/Dotfiles && cp -rf Dotfiles/config/* ~/.config
   
-  ##Installing Fonts
+  ## Installing Fonts
   $fntsrc/DejaVuSansMono.zip && $fntsrc/Hack.zip && $fntsrc/Ubuntu.zip && $fntsrc/JetBrainsMono.zip && $fntsrc/Iosevka.zip && unzip DejaVuSansMono.zip && unzip Hack.zip && unzip Ubuntu.zip && unzip JetBrainsMono.zip && unzip Iosevka.zip && mv *.ttf ~/.fonts && mv *.otf ~/.fonts
+
+  ## Installing weird Fonts
+  cp -rf ./fonts/* ~/.fonts
 
   ## Systemd-services
   sudo cp systemd-services/greenclip.service /usr/lib/systemd/user/ && systemctl --user enable greenclip.service && systemctl --user start greenclip.service && cd -
