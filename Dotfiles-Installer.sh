@@ -8,6 +8,9 @@ source ./distros/suse.sh
 source ./distros/debian.sh
 source ./distros/bsd.sh
 
+## mkdir -p ~/Pictures/Wallpapers && wget https://download1338.mediafire.com/dx97kbxefskg/t0ix8efdnvgh8q5/Lite.zip && unzip Lite.zip && cp -rf Lite/* ~/Pictures/Wallpapers
+## mkdir -p ~/Pictures && wget https://www.mediafire.com/file/9phovsyxankf7og/Wallpapers.zip/file && unzip Wallpapers.zip && mv -f Wallpapers ~/Pictures 
+
 process(){
   
   fntsrc="wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/"

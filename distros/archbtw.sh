@@ -8,7 +8,7 @@ archbtw(){
   sudo pacman -S frei0r-plugins gst-libav gst-plugins-ugly texlive-bin texlive-latexextra python-certifi --noconfirm
 
   ## Installing the packages
-  sudo pacman -S feh bspwm sxhkd polybar neovim mpd ncmpcpp alacritty firefox ranger rofi gnome-screenshot evince dunst --noconfirm
+  sudo pacman -S feh bspwm sxhkd polybar neovim mpd ncmpcpp alacritty firefox ranger rofi gnome-screenshot evince dunst xorg-xrandr --noconfirm
 
   ## Installing AUR package manager
   git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si --noconfirm && cd -
